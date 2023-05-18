@@ -1,0 +1,25 @@
+.grid-container {
+    border: 3px dashed gray;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-template-areas: 
+    'b b b '
+    'r r g'
+    'r r g';
+    /*한가지 영역으로 되어있고 그 영역을 지정할때 css class지정된 태그들에 grid-area 값을 주고 준 값으로 영역을 지정한다*/
+}
+
+.box1{
+    grid-area: b;
+}
+
+.box2{
+    grid-area: r;
+}
+
+.box3{
+    grid-area: g;
+}

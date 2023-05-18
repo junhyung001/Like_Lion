@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nanum Pen Script', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+/* .icons a{
+    text-decoration: none;
+} */
+
+body{
+    background-color: black;
+}
+header{
+    margin-top: 80px;
+    font-style: italic;
+    text-align: center;
+    background-image: url('./images/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    padding: 150px;
+    text-align: right;
+}
+header h1{
+    font-size: 50px !important;
+}
+
+nav{
+    background-color: #ff7710;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    font-weight: bold;
+    font-size: 20px !important;
+}
+
+.container{
+    width: 1100px;
+    margin: 0px auto;
+}
+
+li{
+    list-style: none;
+}
+
+#menu>li{
+    float: left;
+    margin-right: 15px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'a a a b'
+    'a a a b'
+    'c c c c';
+}
+
+main{
+    grid-area: a;
+}
+
+aside{
+    grid-area: b;
+}
+
+footer{
+    grid-area: c;
+}
+
+#section-title{
+    font-size: 30px !important;
+    text-align: center;
+    font-weight: bold;
+}
+.section-images {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.section-images img{
+    width: 400px;
+    height: 300px;
+}
+
+aside ol{
+    background-color: #330066;
+    padding: 40px;
+    margin: 30px;
+}
+
+.big-list{
+    font-size: 25px !important;
+}
+.big-list:first-child{
+    margin-bottom: 50px;
+}
+
+.big-list h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sub-list li{
+    margin-bottom: 5px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    margin-bottom: 15px;
+}
+
+.icons a:first-child{
+    margin-right: 10px;
+}

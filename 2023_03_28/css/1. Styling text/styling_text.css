@@ -1,0 +1,103 @@
+/* 기본 속성 */
+
+.text-styling:nth-child(1) {
+    font-weight: 100;
+}
+
+.text-styling:nth-child(2) {
+    font-weight: normal;
+}
+
+.text-styling:nth-child(3) {
+    font-weight: bold;
+}
+
+.text-styling:nth-child(4) {
+    text-transform: uppercase;
+}
+
+.text-styling:nth-child(5) {
+    text-transform: lowercase;
+}
+
+.text-styling:nth-child(6) {
+    font-style: italic;
+}
+
+.text-styling:nth-child(7) {
+    text-decoration: none;
+}
+
+.text-styling:nth-child(8) {
+    text-decoration: overline;
+}
+
+.text-styling:nth-child(9) {
+    text-decoration: underline;
+}
+
+.text-styling:nth-child(10) {
+    text-decoration: line-through;
+}
+
+.text-styling:nth-child(11) {
+    text-align: left;
+}
+
+.text-styling:nth-child(12) {
+    text-align: right;
+}
+
+.text-styling:nth-child(13) {
+    text-align: center;
+}
+
+.text-styling:nth-child(14) {
+    letter-spacing: -5px;
+}
+
+.text-styling:nth-child(15) {
+    letter-spacing: 0px;
+}
+
+.text-styling:nth-child(16) {
+    letter-spacing: 5px;
+}
+
+
+/* 색상 */
+
+.text-styling:nth-child(17) {
+    color: red
+}
+
+.text-styling:nth-child(18) {
+    color: rgba(255, 4, 0, 0.5);
+}
+
+
+/* 링크 */
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: inherit;
+}
+
+a:visited {
+    color: red;
+}
+
+
+/* 순서가 없는 리스트 */
+
+ul li {
+    
+}
+
+
+/* 순서가 있는 리스트 */
+
+ol li {}

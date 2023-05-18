@@ -1,0 +1,26 @@
+.box {
+    border: 5px solid red;
+    width: 500px;
+    height: 500px;
+    background-image: url("./lion.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+/*
+background-size: 
+속성
+- cover : 배경을 다 덮기
+- contain : 이미지의 사이즈를 변경해줌.
+
+background-position
+상하, 좌우 이런식으로 포지션 위치 지정
+좌우 지정 안할시 가운데 지정
+상 - top
+하 - bottom
+좌 - left
+우 - right
+
+
+*/

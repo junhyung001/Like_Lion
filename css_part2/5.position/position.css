@@ -1,0 +1,52 @@
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.parent {
+    width: 600px;
+    height: 600px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.child1 {
+    background-color: red;
+}
+
+.child2 {
+    background-color: yellow;
+    /* position: absolute;
+    right: 50%;
+    margin-right:-50px;
+    bottom: 50%;
+    margin-bottom: -50px; */
+}
+
+.child3 {
+    background-color: blue;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+}
+
+.child4 {
+    background-color: lime;
+    top: 0px;
+    bottom: 0px;
+    position: fixed;
+    top: 0px;
+    left: 10%;
+}
+
+.child5 {
+    background-color: purple;
+}
+
+.child6 {
+    background-color: pink;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
